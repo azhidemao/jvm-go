@@ -11,7 +11,6 @@ func newCompositeEntry(pathList string) CompositeEntry {
 		entry := newEntry(path)
 		compositeEntry = append(compositeEntry, entry)
 	}
-
 	return compositeEntry
 }
 
