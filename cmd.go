@@ -30,7 +30,6 @@ func parseCmd() *Cmd {
 		cmd.class = args[0]
 		cmd.args = args[1:]
 	}
-
 	return cmd
 }
 
