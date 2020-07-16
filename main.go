@@ -25,7 +25,6 @@ func startJVM(cmd *Cmd) {
 	if err != nil {
 		fmt.Printf("Could not find or load main class %s\n", cmd.class)
 		return
-
 	}
 	fmt.Printf("class data:%v\n", classData)
 }
