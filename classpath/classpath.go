@@ -64,7 +64,6 @@ func (self *Classpath) ReadClass(className string) ([]byte, Entry, error) {
 		return data, entry, err
 	}
 	return self.userClasspath.readClass(className)
-
 }
 
 func (self *Classpath) String() string {
